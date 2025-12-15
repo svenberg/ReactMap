@@ -1,3 +1,10 @@
+# [1.41.0-develop.2](https://github.com/WatWowMap/ReactMap/compare/v1.41.0-develop.1...v1.41.0-develop.2) (2025-12-15)
+
+
+### Bug Fixes
+
+* remove extra Forms ([0f157ed](https://github.com/WatWowMap/ReactMap/commit/0f157edba37eb727fdb9f4a5b96bdf417298cdfc))
+
 # [1.41.0-develop.1](https://github.com/WatWowMap/ReactMap/compare/v1.40.2-develop.1...v1.41.0-develop.1) (2025-12-11)
 
 
