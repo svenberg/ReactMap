@@ -1,3 +1,16 @@
+# [1.41.0-develop.3](https://github.com/WatWowMap/ReactMap/compare/v1.41.0-develop.2...v1.41.0-develop.3) (2025-12-16)
+
+
+### Bug Fixes
+
+* logic bug in loading non-clustered elements ([#1161](https://github.com/WatWowMap/ReactMap/issues/1161)) ([a2c7f17](https://github.com/WatWowMap/ReactMap/commit/a2c7f17e02ff7cd5467d4bf5ccd8b13a444ba725))
+* more robust discord handling ([#1181](https://github.com/WatWowMap/ReactMap/issues/1181)) ([b579ded](https://github.com/WatWowMap/ReactMap/commit/b579dedeb196fb4d8b1da025e325049bfd7833e8))
+
+
+### Features
+
+* default clientPrompt to none to skip permission reapproval ([d3ea283](https://github.com/WatWowMap/ReactMap/commit/d3ea283b5eacda18b9f4725e50e5353a955a363d))
+
 # [1.41.0-develop.2](https://github.com/WatWowMap/ReactMap/compare/v1.41.0-develop.1...v1.41.0-develop.2) (2025-12-15)
 
 
