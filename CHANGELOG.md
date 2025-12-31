@@ -1,3 +1,10 @@
+# [1.41.0-develop.4](https://github.com/WatWowMap/ReactMap/compare/v1.41.0-develop.3...v1.41.0-develop.4) (2025-12-31)
+
+
+### Bug Fixes
+
+* area reload ([cea3141](https://github.com/WatWowMap/ReactMap/commit/cea3141386d804f502e83e89b9bf92da93102a5d))
+
 # [1.41.0-develop.3](https://github.com/WatWowMap/ReactMap/compare/v1.41.0-develop.2...v1.41.0-develop.3) (2025-12-16)
 
 
