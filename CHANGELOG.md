@@ -1,3 +1,10 @@
+# [1.41.0-develop.5](https://github.com/WatWowMap/ReactMap/compare/v1.41.0-develop.4...v1.41.0-develop.5) (2026-01-08)
+
+
+### Bug Fixes
+
+* escape gpx xml ([#1186](https://github.com/WatWowMap/ReactMap/issues/1186)) ([7bd5ce1](https://github.com/WatWowMap/ReactMap/commit/7bd5ce10d3e8aa6f64faac8d3d9773c589d6a28e))
+
 # [1.41.0-develop.4](https://github.com/WatWowMap/ReactMap/compare/v1.41.0-develop.3...v1.41.0-develop.4) (2025-12-31)
 
 
