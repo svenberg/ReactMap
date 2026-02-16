@@ -4,6 +4,7 @@ import { divIcon } from 'leaflet'
 import { basicEqualFn, useMemory } from '@store/useMemory'
 import { useStorage } from '@store/useStorage'
 import { useOpacity } from '@hooks/useOpacity'
+import { resolveShowcaseEventIcon } from './resolveShowcaseEventIcon'
 
 /**
  *
@@ -375,34 +376,14 @@ export function usePokestopMarker({
           showcaseSizes.unshift(Icons.getSize('event', filters.b7?.size))
         }
       } else if (event.display_type === 9) {
-        if (event.showcase_pokemon_id) {
-          showcaseIcons.unshift({
-            url: Icons.getPokemon(
-              event.showcase_pokemon_id,
-              event.showcase_pokemon_form_id,
-            ),
-            decoration: true,
-          })
-          showcaseSizes.unshift(
-            Icons.getSize(
-              'event',
-              filters[
-                `f${event.showcase_pokemon_id}-${event.showcase_pokemon_form_id}`
-              ]?.size,
-            ),
-          )
-        } else if (event.showcase_pokemon_type_id) {
-          showcaseIcons.unshift({
-            url: Icons.getTypes(event.showcase_pokemon_type_id),
-            decoration: true,
-          })
-          showcaseSizes.unshift(
-            Icons.getSize(
-              'event',
-              filters[`h${event.showcase_pokemon_type_id}`]?.size,
-            ),
-          )
-        }
+        const showcaseIcon = resolveShowcaseEventIcon(event, Icons)
+        showcaseIcons.unshift({
+          url: showcaseIcon.url,
+          decoration: showcaseIcon.decoration,
+        })
+        showcaseSizes.unshift(
+          Icons.getSize('event', filters[showcaseIcon.sizeFilterKey]?.size),
+        )
       }
       popupYOffset += eventMod.offsetY - 1
       popupX += eventMod.popupX
