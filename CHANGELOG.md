@@ -1,3 +1,16 @@
+# [1.41.0-develop.6](https://github.com/WatWowMap/ReactMap/compare/v1.41.0-develop.5...v1.41.0-develop.6) (2026-02-16)
+
+
+### Bug Fixes
+
+* im dumdum ([ce37e2a](https://github.com/WatWowMap/ReactMap/commit/ce37e2a9123ea2808cde3f3f130361055141ae63))
+* showcase icons display ([b626d3d](https://github.com/WatWowMap/ReactMap/commit/b626d3d37c18b5ef6261f02b105796fdb8ce011f))
+
+
+### Features
+
+* ar/no-ar quest dot badge ([8adba28](https://github.com/WatWowMap/ReactMap/commit/8adba286fea81d194e0dd4b7da5c680f6499b697))
+
 # [1.41.0-develop.5](https://github.com/WatWowMap/ReactMap/compare/v1.41.0-develop.4...v1.41.0-develop.5) (2026-01-08)
 
 
