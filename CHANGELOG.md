@@ -1,3 +1,10 @@
+# [1.41.0-develop.7](https://github.com/WatWowMap/ReactMap/compare/v1.41.0-develop.6...v1.41.0-develop.7) (2026-02-17)
+
+
+### Bug Fixes
+
+* properly migrate to express 5 ([3907656](https://github.com/WatWowMap/ReactMap/commit/390765696dbdcd89ed2fd57b16d41ecc2725a1b9))
+
 # [1.41.0-develop.6](https://github.com/WatWowMap/ReactMap/compare/v1.41.0-develop.5...v1.41.0-develop.6) (2026-02-16)
 
 
